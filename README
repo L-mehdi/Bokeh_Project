@@ -1,0 +1,25 @@
+# Morocco Wildfire Predictions App
+
+## Overview
+This project is a data visualization application using Bokeh, focusing on predicting wildfires in Morocco from 2010 to 2022. The application allows users to interact with various graphs.
+
+## Dataset
+The dataset "Morocco Wildfire Predictions: 2010-2022 ML Dataset" integrates data from meteorological conditions, wildfire instances, population density, and environmental factors. It was chosen to facilitate the development of predictive models for wildfire management and mitigation.
+
+### Dataset Description
+This dataset, titled "Morocco Wildfire Predictions: 2010-2022 ML Dataset," offers an extensive collection of data tailored for machine learning applications aiming to predict wildfire occurrences in Morocco from 2010 to 2022. It integrates diverse data sources, including:
+- Meteorological conditions from the Global Surface Summary of the Day (GSOD) dataset provided by NOAA.
+- Wildfire instances from NASA's Fire Information for Resource Management System (FIRMS).
+- Human population density figures adjusted from the UN WPP.
+- Environmental factors such as soil moisture and vegetation greenness (NDVI) from NASA GES DISC and ORNL DAAC.
+
+### File Information
+The core of this dataset is a single, comprehensive file named `Date_final_dataset_balanced_float32.parquet`, structured in the Parquet format for efficiency and optimized for machine learning workflows. The dataset contains:
+- 934,586 rows and 278 columns.
+- Features include temporal markers, spatial features, environmental conditions, weather data, aggregated weather statistics, and the outcome variable `is_fire`.
+
+## Installation
+To run the application, you need to have Python installed. You can install the necessary dependencies using pip:
+
+```sh
+pip install pandas bokeh pyarrow
