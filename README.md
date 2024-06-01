@@ -53,6 +53,7 @@ bokeh serve --show main.py
 ```
 
 Cela démarrera un serveur Bokeh et ouvrira l'application dans votre navigateur web par défaut.
+(N'oublier pas de placer le dataset et le notebook dans le même fichier)
 
 ## Contenu du Notebook
 
