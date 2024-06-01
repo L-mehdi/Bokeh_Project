@@ -53,7 +53,6 @@ bokeh serve --show main.py
 ```
 
 Cela démarrera un serveur Bokeh et ouvrira l'application dans votre navigateur web par défaut.
-(N'oublier pas de placer le dataset et le notebook dans le même fichier)
 
 ## Contenu du Notebook
 
@@ -61,6 +60,7 @@ Le notebook Jupyter `notebook.ipynb` contient :
 
 1. **Description du dataset** : Exploration initiale des données.
 2. **Prétraitement des données** : Gestion des valeurs manquantes et normalisation des données.
+(N'oublier pas de placer le dataset et le notebook dans le même fichier)
 
 ## Auteurs
 
